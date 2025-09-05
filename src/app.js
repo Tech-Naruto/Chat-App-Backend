@@ -17,7 +17,7 @@ const server = http.createServer(app);
 
 webSocketConfig(server);
 
-app.use(cors({ origin: "*", credentials: true }));
+app.use(cors({ origin: "https://chat-app-delta-henna-92.vercel.app", credentials: true }));
 
 app.use(
   express.json({
