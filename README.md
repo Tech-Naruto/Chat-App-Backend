@@ -5,6 +5,14 @@ Handles authentication, message delivery, presence tracking, and cross-device co
 
 ---
 
+## 🧬 Backend Schema
+
+Here’s a visual representation of the database schema:
+
+![Chat App-Backend Schema](./src/assets/chat_schema.png)
+
+---
+
 ## ⚙ Tech Stack
 
 - *Node.js + Express* — Core server logic and routing
